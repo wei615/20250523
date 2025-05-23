@@ -30,7 +30,7 @@ function draw() {
     const keypoints = predictions[0].scaledMesh;
 
     // 先畫第一組紅色線
-    stroke(255, 0, 0);
+    stroke("#ff006e");
     strokeWeight(2);
     noFill();
     beginShape();
